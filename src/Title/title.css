@@ -1,3 +1,4 @@
-[data-title] {
+.title {
   font-size: 24px;
+  color: purple;
 }

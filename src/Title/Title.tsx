@@ -7,5 +7,5 @@ export type TitleProps = {
 };
 
 export function Title({ children }: TitleProps) {
-  return <h1 data-title>{children}</h1>;
+  return <h1 className="title">{children}</h1>;
 }
