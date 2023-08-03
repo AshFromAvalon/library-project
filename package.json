@@ -1,0 +1,21 @@
+{
+  "name": "library-project",
+  "version": "1.0.0",
+  "description": "first attemp to build a clean react component lib ^^",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build && tsc"
+  },
+  "author": "Maridiyath & Thomas",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.18",
+    "react": "^18.2.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
